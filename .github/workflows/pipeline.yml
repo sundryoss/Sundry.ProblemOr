@@ -28,7 +28,7 @@ jobs:
       uses: alirezanet/publish-nuget@v3.0.0
       with:
           PROJECT_FILE_PATH: ${{env.PROJECT_PATH}}
-          VERSION_FILE_PATH: src/Directory.Build.props
+          VERSION_FILE_PATH: Directory.Build.props
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           NUGET_SOURCE: https://api.nuget.org
           INCLUDE_SYMBOLS: true
