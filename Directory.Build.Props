@@ -7,9 +7,19 @@
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-     <PackageId>ProblemOr</PackageId>
-    <Version>1.0.0</Version>
+    <Description>A dead simple, fluent discriminated union of a Problem or a result.</Description>
     <Authors>Sundry OSS</Authors>
+    <PackageTags>doppler;secrets;keyvault;devsecops</PackageTags>
+    <PackageProjectUrl>https://github.com/sundryoss/Sundry.ProblemOr</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sundryoss/Sundry.ProblemOr</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugSymbols>true</DebugSymbols>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <CodeAnalysisRuleset>$(MSBuildThisFileDirectory).ruleset</CodeAnalysisRuleset>
     <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
