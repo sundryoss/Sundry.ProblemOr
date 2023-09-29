@@ -5,8 +5,6 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <Description>A dead simple, fluent discriminated union of a Problem or a result.</Description>
     <Authors>Sundry OSS</Authors>
     <PackageTags>doppler;secrets;keyvault;devsecops</PackageTags>

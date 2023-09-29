@@ -24,7 +24,7 @@ jobs:
     - name: Build
       run: dotnet build ${{env.PROJECT_PATH}} --no-restore --configuration Release  
       
-    - name: Publish Doppler.Extensions.Configuration
+    - name: Publish Sundry.ProblemOr
       uses: alirezanet/publish-nuget@v3.0.0
       with:
           PROJECT_FILE_PATH: ${{env.PROJECT_PATH}}
